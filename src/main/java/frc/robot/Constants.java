@@ -22,6 +22,14 @@ public class Constants {
         public static double RIGHT_SPEED = 0.25;
     }
 
+    public final class ArmContants {
+        public static final int ARM_MOTOR_1 = 1;
+        public static final int ARM_PID_P = 3;
+        public static final int ARM_PID_I = 0;
+        public static final int ARM_PID_D = 0;
+        public static final int ARM_ZERO_OFFSET = 0;
+        public static final float ARM_STATIONARY_CONSTANT = 1;
+
     public static final class ShooterConstants {
         public static final double KP = 0.0;
         public static final double KI = 0.0;
