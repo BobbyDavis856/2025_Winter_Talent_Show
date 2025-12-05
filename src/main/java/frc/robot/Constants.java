@@ -84,4 +84,11 @@ public class Constants {
     public static final class LimelightConstants {
         public static final String LIMELIGHT_NAME = "limelight";
     }
+
+    public static final class IndexerConstants{
+        public static final int INDEX_MOTOR_ID = 0;
+        public static final boolean INDEX_MOTOR_INVERSED = true;
+        public static final int INDEX_PROXIMITY_PORT = 1;
+
+    }
 }
